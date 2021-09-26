@@ -98,6 +98,7 @@ Vue.component('GestorTareas', {
     },
 
     created() {
+        // Código para cuando se recarga la página mantenga los datos.
         // Si en el localStorage existe el objeto que yo acaba de crear (tareasBD) entonces asigne las tareas en el vector  tareas (tareas: []).
         // si no existe el array de tareas debe inicializar vacío
         //parsee a objeto
