@@ -1,9 +1,6 @@
 var app = new Vue({
     el: '#app',
     data: {
-        //nombre, estado
-        tareas: [],
-        // en el localStorage vamos a llamar el item como tareasBD
         proyecto: 'Tareas con VUE',
         grupo: 'Grupo 40',
     },
